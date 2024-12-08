@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
+[lints.clippy]
+cognitive_complexity = "warn"
+unwrap_used = "deny"
